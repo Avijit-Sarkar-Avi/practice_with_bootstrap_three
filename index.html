@@ -17,7 +17,7 @@
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="164" height="28" class="d-inline-block align-text-top">
@@ -33,13 +33,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">BagPack</a>
+                            <a class="nav-link" href="#bagpack">BagPack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#subscribe">
                                 Subscribe
                             </a>
                         </li>
@@ -52,7 +52,7 @@
         <section class="container">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-info p-5">
+                    <div class="carousel-item active panda-bg-info rounded p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -60,15 +60,15 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.</p>
                                     <h1>$420</h1>
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="buynow-btn-warning">Buy Now</button>
                                 </div>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 g-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info p-5">
+                    <div class="carousel-item panda-bg-info p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -76,15 +76,15 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.</p>
                                     <h1>$420</h1>
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="buynow-btn-warning">Buy Now</button>
                                 </div>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 g-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item bg-info p-5">
+                    <div class="carousel-item panda-bg-info p-5">
                         <div class="row">
                             <div class="col-lg-7 d-flex align-items-center">
                                 <div>
@@ -92,11 +92,11 @@
                                     <p>This is the best headphone in the world for people who just want to waste time in
                                         front of funky world.</p>
                                     <h1>$420</h1>
-                                    <button class="btn btn-warning">Buy Now</button>
+                                    <button class="buynow-btn-warning">Buy Now</button>
                                 </div>
                             </div>
 
-                            <div class="col-lg-5">
+                            <div class="col-lg-5 g-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
@@ -164,7 +164,7 @@
         <!-- First Section End -->
 
         <!-- Statrt Shoes Section in Second -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -177,7 +177,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                                 content.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                                 height action.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
         <!-- End Shoes Section in Second -->
 
         <!-- Statrt BagPack Section in Third -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="bagpack">
             <h2>BagPack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -228,7 +228,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                                 content.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -257,14 +257,33 @@
                                 height action.</p>
                         </div>
                         <div class="card-footer border border-0">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="buynow-btn-warning">Buy Now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End BagPack Section in Third -->
+
+        <!-- Start Form Section  -->
+        <section class="container mt-5 panda-bg-info p-5 border rounded" id="subscribe">
+            <form action="" class="d-flex justify-content-center align-items-center">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <small class="fw-bold">Get updates on sales, specials and more</small><br>
+                    <input type="email" placeholder="eamil@example.com" name="" id=""
+                        class="w-75 rounded border border-0"> <br> <br>
+                    <input type="submit" value="Submit" class="buynow-btn-warning">
+                </div>
+            </form>
+        </section>
+        <!-- End Form Section -->
     </main>
+
+    <!-- Footer Added -->
+    <footer class="bg-dark text-white text-center p-3">
+        <small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+    </footer>
 </body>
 
 </html>
